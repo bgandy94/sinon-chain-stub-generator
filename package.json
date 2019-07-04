@@ -1,0 +1,38 @@
+{
+  "name": "sinon-chain-stub-generator",
+  "version": "1.0.0",
+  "description": "Package to generate stubs for method chains using sinon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bgandy94/sinon-chain-stub-generator"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\" \"test/**/*.ts\""
+  },
+  "keywords": [
+    "sinon",
+    "mocha"
+  ],
+  "author": "Brandon Gandy",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/sinon": "^7.0.13",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "sinon": "^7.3.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
